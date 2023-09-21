@@ -1,0 +1,16 @@
+input, expected
+3, fizz
+36, fizz
+9, fizz
+12, fizz
+2147483647, 2147483647
+5, buzz
+10, buzz
+50, buzz
+1555555555, buzz
+15, fizzbuzz
+30, fizzbuzz
+75, fizzbuzz
+1, 1
+17, 17
+34, 34
