@@ -6,7 +6,7 @@ input, expected
 2147483647, 2147483647
 5, buzz
 10, buzz
-50, buzz
+15, buzz
 1555555555, buzz
 15, fizzbuzz
 30, fizzbuzz
