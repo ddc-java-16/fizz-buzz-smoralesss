@@ -1,6 +1,5 @@
 package edu.cnm.deepdive.fizzbuzz;
 
-import java.util.EnumSet;
 import java.util.Set;
 
 public class Main {
@@ -14,23 +13,6 @@ public class Main {
       Set<FizzBuzz> value = FizzBuzz.valueOf(i);
       System.out.println(value.isEmpty() ? i : value);
     }
-  }
-
-
-  public enum FizzBuzz {
-    FIZZ, BUZZ;
-
-    public static Set<FizzBuzz> valueOf(int value) {
-      Set<FizzBuzz> result = EnumSet.noneOf(FizzBuzz.class);
-      if (value % 3 == 0) {
-        result.add(FIZZ);
-      }
-      if (value % 5 == 0) {
-        result.add(BUZZ);
-      }
-      return result;
-    }
-
   }
 
 
